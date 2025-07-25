@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>理想の暮らし診断</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Question Section -->
+        <div id="quiz-container">
+            <h2 id="question-title"></h2>
+            <div id="options-container"></div>
+            
+        </div>
+
+        <!-- Result Section -->
+        <div id="result-container" style="display: none;">
+            <h1 id="result-style-title"></h1>
+            <p id="result-message"></p>
+            
+            <div class="result-section">
+                <h3>おすすめのカテゴリ</h3>
+                <div id="recommended-categories-container"></div>
+            </div>
+            
+            <div class="result-section">
+                <h3>暮らしづくりのヒント by 暮らしづくりアドバイザー</h3>
+                <p id="designer-message"></p>
+            </div>
+
+            <div id="cta-section">
+                <button id="save-result-btn">この診断結果を保存して、次へ進む</button>
+                <div id="sub-cta-buttons">
+                    <button id="share-btn">診断結果を友達にシェア</button>
+                    <button id="explore-btn">オンラインストアで関連商品を探してみる</button>
+                </div>
+                <button id="restart-btn">診断をやり直す</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

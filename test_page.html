@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>診断テストページ (iframe)</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 90vh;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        iframe {
+            width: 100%;
+            max-width: 850px; /* 診断アプリのコンテナ幅より少し広めに */
+            height: 700px; /* 診断アプリのコンテンツが収まるように調整 */
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>理想の暮らし診断 - テストページ</h1>
+    <iframe src="index.html" frameborder="0"></iframe>
+</body>
+</html>
