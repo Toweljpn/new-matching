@@ -20,37 +20,37 @@ document.addEventListener('DOMContentLoaded', () => {
     const questions = [
         {
             id: 'q1',
-            title: 'Q1: 理想の家具は？',
+            title: 'Q1: お祝いの節句は？',
             options: [
-                { text: '木の家具（温かい印象）', value: 'hina' },
-                { text: '鉄の家具（クールな印象）', value: 'gogatsu' }
+                { text: '桃の節句（ひな人形）', value: 'hina' },
+                { text: '端午の節句（五月人形）', value: 'gogatsu' }
             ]
         },
         {
             id: 'q2',
-            title: 'Q2: 家にいる時の理想のイメージですか？',
+            title: 'Q2: 主にどちらにお飾りになるイメージですか？',
             options: [
-                { text: 'リビングのサイドボードが家の中心', value: 'compact' },
-                { text: '家の空間、リビングもダイニングも家の中心', value: 'standard' },
-                { text: '広い場所より狭い場所が好き、できればコンパクトにしたい', value: 'space_saving' }
+                { text: 'リビングのサイドボードや棚の上など', value: 'compact' },
+                { text: '床の間や、リビング・和室の床の上', value: 'standard' },
+                { text: '飾る場所も収納場所も、できるだけコンパクトにしたい', value: 'space_saving' }
             ]
         },
         {
             id: 'q3',
             title: 'Q3: どのような雰囲気のデザインが好みですか？',
             options: [
-                { text: '木材を活かして落ち着きある、品のある雰囲気が良い', value: 'natural_elegant' },
-                { text: '最新のインテリアを取り入れ、洗練されたクールなデザイン', value: 'modern_stylish' },
-                { text: '家が好きなように活動的で、明るく元気な雰囲気が良い', value: 'playful_cheerful' }
+                { text: '時代を超えて受け継がれる、気品あふれる伝統美', value: 'natural_elegant' },
+                { text: '現代のインテリアに調和する、洗練されたおしゃれなデザイン', value: 'modern_stylish' },
+                { text: 'わが子のように愛らしく、見るたびに心が和む雰囲気', value: 'playful_cheerful' }
             ]
         },
         {
             id: 'q4',
-            title: 'Q4: 家具選びで、特に大事にしたいポイントはどれですか？',
+            title: 'Q4: お人形選びで、特に大切にしたい想いはどれですか？',
             options: [
-                { text: '機能（使いやすさ、長く使えるものを選びたい）', value: 'function' },
-                { text: '見た目（とにかく"好き"と思える、デザイン性を重視したい）', value: 'design' },
-                { text: '価格と機能のバランス（失敗しないように、良いものを賢く選びたい）', value: 'balance' }
+                { text: '歴史や格式のある、確かなものを贈りたい', value: 'function' },
+                { text: '自分たちが心から「素敵」と思える、デザイン性を重視したい', value: 'design' },
+                { text: '家族みんなで相談しながら、納得できるものを選びたい', value: 'balance' }
             ]
         },
         {
