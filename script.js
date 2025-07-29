@@ -478,7 +478,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'gogatsu_space_saving_playful_cheerful_function': {
             style: '確かな品質と愛らしさをひとつに、名匠が作るかわいい収納大将飾り',
             message: '可愛らしい大将飾りを、確かな品質の作家物で、かつ収納しやすい形で揃えたいという、愛情と賢さを兼ね備えたお客様に最適なスタイルです。 ',
-            categories: [{ name: 'コンパクトソファ (五月)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+CompactSofa' }, { name: '壁面アート (五月)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+WallArt' }],
+            categories: [{ name: '確かな品質 (五月)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+CompactSofa' }, { name: '愛情と賢さ (五月)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+WallArt' }],
             advice: 'お人形に合わせた布を収納箱の中に敷くと、より丁寧です。'
         },
         // 53
