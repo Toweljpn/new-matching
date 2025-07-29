@@ -130,162 +130,162 @@ document.addEventListener('DOMContentLoaded', () => {
         // hina_compact_playful_cheerful
         // 7
         'hina_compact_playful_cheerful_function': {
-            style: '木の温もりを活かした、コンパクトで明るく・元気なスタイル',
-            message: '木の温もりと明るく元気な雰囲気が調和した、コンパクトながらも楽しい空間。機能性を重視し、日々の生活を快適に彩ります。',
-            categories: [{ name: '収納ボックス (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Box' }, { name: 'スツール (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Stool' }],
-            advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
+            style: ' 愛らしさの中に宿る確かな技、名匠が手がける優しいお顔のおひなさま ',
+            message: 'お人形の可愛らしさを求めつつも、作家物ならではの品質と格式を重視するお客様のニーズに応えます。贈る側のこだわりも表現できるスタイルです。 ',
+            categories: [{ name: '可愛らしさ (ひな)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Box' }, { name: '格式と品質 (ひな)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Stool' }],
+            advice: '優しいお顔立ちには、春らしい色合いの「つるし飾り」が似合います。 '
         },
         // 8
         'hina_compact_playful_cheerful_design': {
-            style: '木の温もりを活かした、コンパクトで明るく・元気なスタイル',
-            message: '木の温もりと明るく元気な雰囲気が調和した、コンパクトながらも楽しい空間。デザイン性を重視し、日々の生活を快適に彩ります。',
+            style: '見るたびに心和む、わが子に似合う「かわいい」を選ぶコンパクト雛 ',
+            message: 'お子様の面影を重ねられるような、親しみやすく可愛らしいデザインを最優先するお客様の想いを形にしたスタイルです。 ',
             categories: [{ name: '収納ボックス (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Box' }, { name: 'スツール (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Stool' }],
-            advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
+            advice: 'お子様のお名前を入れた「名前旗」を隣に飾ると特別感が増します。 '
         },
         // 9
         'hina_compact_playful_cheerful_balance': {
-            style: '木の温もりを活かした、コンパクトで明るく・元気なスタイル',
-            message: '木の温もりと明るく元気な雰囲気が調和した、コンパクトながらも楽しい空間。価格と機能のバランスを重視し、日々の生活を快適に彩ります。',
-            categories: [{ name: '収納ボックス (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Box' }, { name: 'スツール (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Stool' }],
-            advice: '定番ブランドのロングセラー商品や、異素材ミックスのアイテムを選ぶと、価格を抑えつつも質の高い空間づくりができます。'
+            style: '家族みんなが笑顔になる、愛らしくて飾りやすいおひなさま ',
+            message: '家族全員が「かわいい」と共感でき、かつコンパクトで飾りやすいという、現代の家族のニーズに最も寄り添ったバランスの良いスタイルです。 ',
+            categories: [{ name: 'コンパクト (ひな)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Box' }, { name: '現代的 (ひな)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Stool' }],
+            advice: 'ぼんぼりをコードレスタイプにすると、飾る場所の自由度が上がります。 '
         },
 
         // hina_standard_natural_elegant
         // 10
         'hina_standard_natural_elegant_function': {
-            style: '木の温もりを活かした、スタンダードでナチュラル・上品なスタイル',
-            message: '家族や友人との時間を大切にする、スタンダードな空間。木の温もりが、集まる人々を優しく包み込み、ナチュラルで上品な雰囲気を演出します。機能性を重視し、快適な暮らしをサポートします。',
+            style: '受け継がれる家の誇り、名匠の技で仕立てる本格・伝統雛飾り ',
+            message: '格式と作家性を最も重視し、床の間に飾るような本格的なお祝いを望むお客様に。一生もの、そして家宝として受け継ぐ価値を提案します。 ',
             categories: [{ name: 'ダイニングテーブル (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Table' }, { name: 'ソファ (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Sofa' }],
-            advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
+            advice: '伝統的な金屏風を選ぶと、お人形の衣裳の美しさが一層際立ちます。 '
         },
         // 11
         'hina_standard_natural_elegant_design': {
-            style: '木の温もりを活かした、スタンダードでナチュラル・上品なスタイル',
-            message: '家族や友人との時間を大切にする、スタンダードな空間。木の温もりが、集まる人々を優しく包み込み、ナチュラルで上品な雰囲気を演出します。デザイン性を重視し、快適な暮らしをサポートします。',
+            style: '凛とした佇まいを美しく、晴れの日にふさわしい正統派のおひなさま ',
+            message: '伝統的なデザインの美しさを純粋に楽しみたいお客様向け。流行に左右されない、日本の節句文化の王道を行くスタイルです。 ',
             categories: [{ name: 'ダイニングテーブル (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Table' }, { name: 'ソファ (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Sofa' }],
-            advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
+            advice: '緋毛氈（ひもうせん）を敷くと、より本格的で華やかな印象になります。 '
         },
         // 12
         'hina_standard_natural_elegant_balance': {
-            style: '木の温もりを活かした、スタンダードでナチュラル・上品なスタイル',
-            message: '家族や友人との時間を大切にする、スタンダードな空間。木の温もりとナチュラルで上品な雰囲気を演出します。価格と機能のバランスを重視し、快適な暮らしをサポートします。',
+            style: '家族の想いを一つに、時代を超える日本の美を伝えるおひなさま ',
+            message: '家族での調和を大切にしながら、本格的で伝統的なお祝いをしたいという想いを反映。世代を超えて愛される普遍的な美しさを提案します。 ',
             categories: [{ name: 'ダイニングテーブル (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Table' }, { name: 'ソファ (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Sofa' }],
-            advice: '定番ブランドのロングセラー商品や、異素材ミックスのアイテムを選ぶと、価格を抑えつつも質の高い空間づくりができます。'
+            advice: 'お道具を一つずつ増やしていく楽しみ方もご提案できます。 '
         },
 
         // hina_standard_modern_stylish
         // 13
         'hina_standard_modern_stylish_function': {
-            style: '木の温もりを活かした、スタンダードでモダン・スタイリッシュなスタイル',
-            message: '木の温もりとモダンなデザインが融合した、スタンダードながらも洗練された空間。機能性を重視し、日々の生活を快適に彩ります。',
+            style: '伝統と革新の融合、匠の感性が光るモダンで優美なおひなさま',
+            message: '本格的なサイズ感の中に、現代的なデザイン要素を求めるお客様向け。作家の新しい挑戦や感性を楽しむ、通好みのスタイルです。 ',
             categories: [{ name: 'テレビボード (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+TV' }, { name: 'サイドボード (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Sideboard' }],
-            advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
+            advice: '飾り台の色を抑えめにすると、モダンな衣裳のデザインが引き立ちます。 '
         },
         // 14
         'hina_standard_modern_stylish_design': {
-            style: '木の温もりを活かした、スタンダードでモダン・スタイリッシュなスタイル',
-            message: '木の温もりとモダンなデザインが融合した、スタンダードながらも洗練された空間。デザイン性を重視し、日々の生活を快適に彩ります。',
+            style: '和室にも洋室にも映える、洗練されたデザインをまとう優雅なおひなさま ',
+            message: '設置スペースは確保しつつも、現代的なインテリアとの調和を最優先するお客様のニーズに応える、デザインコンシャスなスタイルです。 ',
             categories: [{ name: 'テレビボード (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+TV' }, { name: 'サイドボード (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Sideboard' }],
-            advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
+            advice: '照明を工夫すると、アートオブジェのようにお飾りいただけます。 '
         },
         // 15
         'hina_standard_modern_stylish_balance': {
-            style: '木の温もりを活かした、スタンダードでモダン・スタイリッシュなスタイル',
-            message: '木の温もりとモダンなデザインが融合した、スタンダードながらも洗練された空間。価格と機能のバランスを重視し、日々の生活を快適に彩ります。',
+            style: '家族で選ぶ新しい伝統の形、晴れやかでモダンな雛飾り ',
+            message: '家族みんなの意見を取り入れながら、伝統にとらわれない新しいお祝いの形を模索する、現代的な家族像を反映したスタイルです。 ',
             categories: [{ name: 'テレビボード (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+TV' }, { name: 'サイドボード (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Sideboard' }],
-            advice: '定番ブランドのロングセラー商品や、異素材ミックスのアイテムを選ぶと、価格を抑えつつも質の高い空間づくりができます。'
+            advice: '屏風のデザインを家族で選ぶのも「フリープラン」の醍醐味です。 '
         },
 
         // hina_standard_playful_cheerful
         // 16
         'hina_standard_playful_cheerful_function': {
-            style: '木の温もりを活かした、スタンダードで明るく・元気なスタイル',
-            message: '家族や友人との時間を大切にする、明るく元気なスタンダード空間。木の温もりが、集まる人々を優しく包み込みます。機能性を重視し、快適な暮らしをサポートします。',
+            style: '愛らしさの中に宿る本物の気品、名匠が手がける優しいお顔立ちのおひなさま ',
+            message: '可愛らしいお顔立ちを好みながらも、作家物ならではの品質と本格的な飾り栄えを両立させたいという、こだわりのあるお客様に最適です。 ',
             categories: [{ name: 'ダイニングテーブル (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Table' }, { name: 'ソファ (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Sofa' }],
-            advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
+            advice: '優しいお顔には、桜橘だけでなく、現代的なお花飾りも似合います。 '
         },
         // 17
         'hina_standard_playful_cheerful_design': {
-            style: '木の温もりを活かした、スタンダードで明るく・元気なスタイル',
-            message: '家族や友人との時間を大切にする、明るく元気なスタンダード空間。木の温もりが、集まる人々を優しく包み込みます。デザイン性を重視し、快適な暮らしをサポートします。',
+            style: 'お子様の笑顔を引き出す、晴れやかで優しい雰囲気のおひなさま',
+            message: 'お人形の「かわいい」表情や雰囲気を何よりも大切にしたいという、お子様への愛情が伝わるピュアな想いを反映したスタイルです。',
             categories: [{ name: 'ダイニングテーブル (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Table' }, { name: 'ソファ (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Sofa' }],
-            advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
+            advice: 'お子様が好きな動物などをモチーフにした「つるし飾り」もおすすめです。 '
         },
         // 18
         'hina_standard_playful_cheerful_balance': {
-            style: '木の温もりを活かした、スタンダードで明るく・元気なスタイル',
-            message: '家族や友人との時間を大切にする、明るく元気なスタンダード空間。木の温もりと明るく元気な雰囲気を演出します。価格と機能のバランスを重視し、快適な暮らしをサポートします。',
+            style: '家族の愛情を映す、優しく穏やかな表情の本格雛飾り ',
+            message: '家族全員が「かわいい」と心から思えることを大切にしつつ、本格的な飾りで盛大にお祝いしたいという想いを形にしたスタイルです。 ',
             categories: [{ name: 'ダイニングテーブル (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Table' }, { name: 'ソファ (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Sofa' }],
-            advice: '定番ブランドのロングセラー商品や、異素材ミックスのアイテムを選ぶと、価格を抑えつつも質の高い空間づくりができます。'
+            advice: 'お子様と一緒に飾り付けができる、安全で軽いお道具もございます。 '
         },
 
         // hina_space_saving_natural_elegant
         // 19
         'hina_space_saving_natural_elegant_function': {
-            style: '木の温もりを活かした、省スペース・効率重視でナチュラル・上品なスタイル',
-            message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。木の温もりとナチュラルで上品なテイストが、機能性を重視しつつも心地よい空間を演出します。',
+            style: '伝統美と機能性を両立、匠の技が詰まった本格収納雛飾り',
+            message: '格式高い作家物を求めつつも、収納の利便性は譲れないという、非常に賢明で現代的なニーズに応える、最も合理的な本格派スタイルです。',
             categories: [{ name: '折りたたみデスク (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+FoldDesk' }, { name: '壁面収納 (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+WallStorage' }],
-            advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
+            advice: '伝統的なお道具も全て収まるか、事前にサイズ確認をしましょう。'
         },
         // 20
         'hina_space_saving_natural_elegant_design': {
-            style: '木の温もりを活かした、省スペース・効率重視でナチュラル・上品なスタイル',
-            message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。木の温もりとナチュラルで上品なテイストが、デザイン性を重視しつつも心地よい空間を演出します。',
+            style: '美しく飾り、賢くしまう、デザイン性に優れた伝統収納雛 ',
+            message: '伝統的なデザインの美しさを楽しみながら、収納の手間は省きたいというお客様のニーズを的確に捉えた、スマートな選択です。 ',
             categories: [{ name: '折りたたみデスク (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+FoldDesk' }, { name: '壁面収納 (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+WallStorage' }],
-            advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
+            advice: '伝統的ながらもコンパクトなお道具を選ぶのがおすすめです。 '
         },
         // 21
         'hina_space_saving_natural_elegant_balance': {
-            style: '木の温もりを活かした、省スペース・効率重視でナチュラル・上品なスタイル',
-            message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。木の温もりとナチュラルで上品なテイストが、価格と機能のバランスを重視しつつも心地よい空間を演出します。',
+            style: '家族みんなに優しい、伝統美あふれるオールインワン雛飾り',
+            message: '伝統的な美しさを求めつつ、収納の手間を軽減したいという実用的なニーズと、家族での調和を大切にする想いを汲み取ったスタイルです。 ',
             categories: [{ name: '折りたたみデスク (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+FoldDesk' }, { name: '壁面収納 (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+WallStorage' }],
-            advice: '定番ブランドのロングセラー商品や、異素材ミックスのアイテムを選ぶと、価格を抑えつつも質の高い空間づくりができます。'
+            advice: '飾り方の説明書を見ながら、家族で一緒に飾り付けを楽しんで。 '
         },
 
         // hina_space_saving_modern_stylish
         // 22
         'hina_space_saving_modern_stylish_function': {
-            style: '木の温もりを活かした、省スペース・効率重視でモダン・スタイリッシュなスタイル',
-            message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。木の温もりとモダンでスタイリッシュなテイストが、機能性を重視しつつも洗練された空間を演出します。',
+            style: '現代の名匠が作る、デザインと機能性を極めたモダン収納雛',
+            message: 'モダンなデザインと作家物の品質、そして収納の利便性という、現代のニーズをすべて満たしたいと考える、最も要求レベルの高いお客様向けのスタイル。 ',
             categories: [{ name: 'スリムデスク (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+SlimDesk' }, { name: 'スタッキングチェア (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+StackChair' }],
-            advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
+            advice: '飾り台の色とお部屋の家具の色を合わせると、統一感が出ます。 '
         },
         // 23
         'hina_space_saving_modern_stylish_design': {
-            style: '木の温もりを活かした、省スペース・効率重視でモダン・スタイリッシュなスタイル',
-            message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。木の温もりとモダンでスタイリッシュなテイストが、デザイン性を重視しつつも洗練された空間を演出します。',
+            style: '飾る姿も、しまう姿も美しい、暮らしにフィットするおしゃれな収納雛',
+            message: 'デザイン性と収納のしやすさを最優先するお客様に。節句の準備から後片付けまで、すべてのプロセスをスマートに楽しみたいという想いを反映します。 ',
             categories: [{ name: 'スリムデスク (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+SlimDesk' }, { name: 'スタッキングチェア (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+StackChair' }],
-            advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
+            advice: '屏風のデザインにこだわると、よりインテリア性が高まります。 '
         },
         // 24
         'hina_space_saving_modern_stylish_balance': {
-            style: '木の温もりを活かした、省スペース・効率重視でモダン・スタイリッシュなスタイル',
-            message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。木の温もりとモダンでスタイリッシュなテイストが、価格と機能のバランスを重視しつつも洗練された空間を演出します。',
+            style: '家族の「あったらいいな」を形に、スマートでおしゃれな収納雛飾り',
+            message: '家族みんなが「おしゃれで、しかも片付けが楽」と納得できる、最もバランスの取れた現代的な選択。デザインと実用性の両方を満たします。 ',
             categories: [{ name: 'スリムデスク (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+SlimDesk' }, { name: 'スタッキングチェア (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+StackChair' }],
-            advice: '定番ブランドのロングセラー商品や、異素材ミックスのアイテムを選ぶと、価格を抑えつつも質の高い空間づくりができます。'
+            advice: 'お子様が自分でしまえるような、軽いお道具を選ぶのも良いですね。'
         },
 
         // hina_space_saving_playful_cheerful
         // 25
         'hina_space_saving_playful_cheerful_function': {
-            style: '木の温もりを活かした、省スペース・効率重視で明るく・元気なスタイル',
-            message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。木の温もりと明るく元気なテイストが、機能性を重視しつつも楽しい空間を演出します。',
+            style: '確かな品質と愛らしさをひとつに、名匠が作るかわいい収納雛',
+            message: '可愛らしいお顔のお人形を、確かな品質の作家物で、かつ収納しやすい形で揃えたいという、愛情と賢さを兼ね備えたお客様に最適なスタイルです。',
             categories: [{ name: '収納付きベッド (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Bed' }, { name: 'カラフルな小物 (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Colorful' }],
-            advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
+            advice: 'お人形の衣裳に合わせた布を収納箱の中に敷くと、より丁寧です。 '
         },
         // 26
         'hina_space_saving_playful_cheerful_design': {
-            style: '木の温もりを活かした、省スペース・効率重視で明るく・元気なスタイル',
-            message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。木の温もりと明るく元気なテイストが、デザイン性を重視しつつも楽しい空間を演出します。',
+            style: '「かわいい」と「便利」を両立、お片付けも楽しくなる収納雛 ',
+            message: 'お人形の可愛らしさと、収納の利便性を何よりも重視するお客様のニーズに特化。お子様と一緒に節句の準備と片付けを楽しみたい方に。 ',
             categories: [{ name: '収納付きベッド (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Bed' }, { name: 'カラフルな小物 (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Colorful' }],
-            advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
+            advice: '飾り付けの場所を示すシールを箱に貼っておくと、翌年迷いません。 '
         },
         // 27
         'hina_space_saving_playful_cheerful_balance': {
-            style: '木の温もりを活かした、省スペース・効率重視で明るく・元気なスタイル',
-            message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。木の温もりと明るく元気なテイストが、価格と機能のバランスを重視しつつも楽しい空間を演出します。',
+            style: '家族みんなが納得、愛らしくて片付けも簡単なオールインワン雛 ',
+            message: '家族全員が「かわいい」と共感でき、かつ収納も簡単という、最も手軽で現代のライフスタイルに合った、みんなが笑顔になるスタイルです。 ',
             categories: [{ name: '収納付きベッド (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Bed' }, { name: 'カラフルな小物 (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Colorful' }],
-            advice: '定番ブランドのロングセラー商品や、異素材ミックスのアイテムを選ぶと、価格を抑えつつも質の高い空間づくりができます。'
+            advice: '毎年出すのが楽しみになるよう、家族の思い出の品を一緒に飾っては？ '
         },
 
         // --- gogatsu (鉄の家具) を選んだ場合のパターン (27通り) ---
