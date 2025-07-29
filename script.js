@@ -72,68 +72,77 @@ document.addEventListener('DOMContentLoaded', () => {
         // デフォルト（万が一、該当する結果がなかった場合の表示）
         'default': {
             style: 'カスタムミックス・スタイル',
-            message: 'あなたの独自のセンスが光る、特別なミックススタイル。様々な要素を組み合わせて、あなただけの理想の空間を創造しましょう。',
+            message: 'あなたの独自のセンスが光る、特別なミックススタイル。様々な要素を組み合わせて、あなただけの理想のお人形セットを創造しましょう。',
             categories: [
                 { name: '照明', img: 'https://placehold.co/280x280/cccccc/FFFFFF?text=Lighting' },
                 { name: 'ラグ', img: 'https://placehold.co/280x280/cccccc/FFFFFF?text=Rug' }
             ],
-            advice: 'あなたの直感を信じて、楽しんで家具を選んでみてください。それが最高の空間作りの秘訣です。'
+            advice: 'あなたの直感を信じて、楽しんで選んでみてください。それが最高のお人形セットです。'
         },
 
-        // --- hina (木の家具) を選んだ場合のパターン (27通り) ---
+        // --- hina  を選んだ場合のパターン (27通り) ---
         // hina_compact_natural_elegant
+        // 1
         'hina_compact_natural_elegant_function': {
-            style: '木の温もりを活かした、コンパクトでナチュラル・上品なスタイル',
-            message: 'あなたの理想は、木の温もりを感じるコンパクトな空間に、ナチュラルで上品なテイストを取り入れること。機能性を重視し、あなただけの心地よい隠れ家のような空間が生まれます。',
-            categories: [{ name: 'リビング収納 (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Storage' }, { name: 'ダイニングチェア (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Chair' }],
-            advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
+            style: 'リビングに映える本格派、匠の技が光る伝統美のおひなさま ',
+            message: 'コンパクトさを求めつつも、作家の技術や伝統的な格式を重視する、本物志向のお客様のニーズを的確に捉えたスタイルです。',
+            categories: [{ name: '匠の技（ひな）', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Storage' }, { name: '本物志向（ひな）', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Chair' }],
+            advice: '名匠の作には、木製の道具を合わせるとより格調高くなります。 '
         },
+        // 2
         'hina_compact_natural_elegant_design': {
-            style: '木の温もりを活かした、コンパクトでナチュラル・上品なスタイル',
-            message: 'あなたの理想は、木の温もりを感じるコンパクトな空間に、ナチュラルで上品なテイストを取り入れること。デザイン性を重視し、あなただけの心地よい隠れ家のような空間が生まれます。',
-            categories: [{ name: 'リビング収納 (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Storage' }, { name: 'ダイニングチェア (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Chair' }],
-            advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
+            style: '空間を彩る伝統の意匠、コンパクトに楽しむ本格おひなさま ',
+            message: 'コンパクトなサイズ感と伝統的なデザイン性の両方を大切にしたいお客様向け。節句という伝統行事を現代の暮らしに取り入れたい想いを反映しています。 ',
+            categories: [{ name: 'リビング収納 (ひな)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Storage' }, { name: 'コンパクト収納 (ひな)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Chair' }],
+            advice: ' 屏風のデザインを少しモダンなものに変えると、印象が変わり新鮮です。'
         },
+        // 3
         'hina_compact_natural_elegant_balance': {
-            style: '木の温もりを活かした、コンパクトでナチュラル・上品なスタイル',
-            message: 'あなたの理想は、木の温もりを感じるコンパクトな空間に、ナチュラルで上品なテイストを取り入れること。価格と機能のバランスを重視し、あなただけの心地よい隠れ家のような空間が生まれます。',
-            categories: [{ name: 'リビング収納 (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Storage' }, { name: 'ダイニングチェア (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Chair' }],
-            advice: '定番ブランドのロングセラー商品や、異素材ミックスのアイテムを選ぶと、価格を抑えつつも質の高い空間づくりができます。'
+            style: '家族で紡ぐ日本の美、コンパクトにまとまる伝統スタイル雛',
+            message: '伝統的な美しさを大切にしながら、家族みんなで納得して選びたいという想いに応えるスタイル。コンパクトさも兼ね備え、バランスが良い選択です。 ',
+            categories: [{ name: '家族で納得 （ひな)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Storage' }, { name: '伝統美 (ひな)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Chair' }],
+            advice: 'お子様と一緒に飾れる、扱いやすいお道具を追加しませんか？ '
         },
 
         // hina_compact_modern_stylish
+        // 4
         'hina_compact_modern_stylish_function': {
-            style: '木の温もりを活かした、コンパクトでモダン・スタイリッシュなスタイル',
-            message: '木の温もりとモダンなデザインが融合した、コンパクトながらも洗練された空間。機能性を重視しつつ、スタイリッシュさも忘れない、都会的な暮らしにフィットします。',
-            categories: [{ name: 'シェルフ (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Shelf' }, { name: 'デスク (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Desk' }],
-            advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
+            style: '小さくても本物志向、名匠が織りなすモダン＆スタイリッシュ雛',
+            message: 'モダンなデザインを好みつつも、品質や作家性には妥協したくないという、高い美意識を持つお客様に最適なスタイルです。 ',
+            categories: [{ name: 'モダン (ひな)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Shelf' }, { name: 'スタイリッシュ (ひな)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Desk' }],
+            advice: '飾り台を明るい色にすると、よりモダンな印象になります。'
         },
+        // 5
         'hina_compact_modern_stylish_design': {
-            style: '木の温もりを活かした、コンパクトでモダン・スタイリッシュなスタイル',
-            message: '木の温もりとモダンなデザインが融合した、コンパクトながらも洗練された空間。デザイン性を重視しつつ、スタイリッシュさも忘れない、都会的な暮らしにフィットします。',
+            style: ' あなたのセンスで選ぶ、インテリアに溶け込むモダンコンパクト雛',
+            message: 'コンパクトさと現代的なデザイン性を最優先するお客様の価値観を反映。節句人形をインテリアの一部として捉える、新しい楽しみ方を提案します。 ',
             categories: [{ name: 'シェルフ (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Shelf' }, { name: 'デスク (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Desk' }],
-            advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
+            advice: '飾り台を木目調や白木のものに変えると、さらに統一感が出ます。 '
         },
+        // 6
         'hina_compact_modern_stylish_balance': {
-            style: '木の温もりを活かした、コンパクトでモダン・スタイリッシュなスタイル',
-            message: '木の温もりとモダンなデザインが融合した、コンパクトながらも洗練された空間。価格と機能のバランスを重視しつつ、スタイリッシュさも忘れない、都会的な暮らしにフィットします。',
+            style: '家族の「好き」を形に、暮らしに馴染むおしゃれなコンパクト雛',
+            message: '家族それぞれの「おしゃれ」という感覚を大切にし、現代の住空間に調和するデザインを求めるお客様にぴったりのスタイルです。 ',
             categories: [{ name: 'シェルフ (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Shelf' }, { name: 'デスク (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Desk' }],
-            advice: '定番ブランドのロングセラー商品や、異素材ミックスのアイテムを選ぶと、価格を抑えつつも質の高い空間づくりができます。'
+            advice: 'お人形の衣裳の色味に合わせて、お花飾りを選ぶと素敵ですよ。 '
         },
 
         // hina_compact_playful_cheerful
+        // 7
         'hina_compact_playful_cheerful_function': {
             style: '木の温もりを活かした、コンパクトで明るく・元気なスタイル',
             message: '木の温もりと明るく元気な雰囲気が調和した、コンパクトながらも楽しい空間。機能性を重視し、日々の生活を快適に彩ります。',
             categories: [{ name: '収納ボックス (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Box' }, { name: 'スツール (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Stool' }],
             advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
         },
+        // 8
         'hina_compact_playful_cheerful_design': {
             style: '木の温もりを活かした、コンパクトで明るく・元気なスタイル',
             message: '木の温もりと明るく元気な雰囲気が調和した、コンパクトながらも楽しい空間。デザイン性を重視し、日々の生活を快適に彩ります。',
             categories: [{ name: '収納ボックス (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Box' }, { name: 'スツール (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Stool' }],
             advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
         },
+        // 9
         'hina_compact_playful_cheerful_balance': {
             style: '木の温もりを活かした、コンパクトで明るく・元気なスタイル',
             message: '木の温もりと明るく元気な雰囲気が調和した、コンパクトながらも楽しい空間。価格と機能のバランスを重視し、日々の生活を快適に彩ります。',
@@ -142,18 +151,21 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         // hina_standard_natural_elegant
+        // 10
         'hina_standard_natural_elegant_function': {
             style: '木の温もりを活かした、スタンダードでナチュラル・上品なスタイル',
             message: '家族や友人との時間を大切にする、スタンダードな空間。木の温もりが、集まる人々を優しく包み込み、ナチュラルで上品な雰囲気を演出します。機能性を重視し、快適な暮らしをサポートします。',
             categories: [{ name: 'ダイニングテーブル (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Table' }, { name: 'ソファ (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Sofa' }],
             advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
         },
+        // 11
         'hina_standard_natural_elegant_design': {
             style: '木の温もりを活かした、スタンダードでナチュラル・上品なスタイル',
             message: '家族や友人との時間を大切にする、スタンダードな空間。木の温もりが、集まる人々を優しく包み込み、ナチュラルで上品な雰囲気を演出します。デザイン性を重視し、快適な暮らしをサポートします。',
             categories: [{ name: 'ダイニングテーブル (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Table' }, { name: 'ソファ (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Sofa' }],
             advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
         },
+        // 12
         'hina_standard_natural_elegant_balance': {
             style: '木の温もりを活かした、スタンダードでナチュラル・上品なスタイル',
             message: '家族や友人との時間を大切にする、スタンダードな空間。木の温もりとナチュラルで上品な雰囲気を演出します。価格と機能のバランスを重視し、快適な暮らしをサポートします。',
@@ -162,18 +174,21 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         // hina_standard_modern_stylish
+        // 13
         'hina_standard_modern_stylish_function': {
             style: '木の温もりを活かした、スタンダードでモダン・スタイリッシュなスタイル',
             message: '木の温もりとモダンなデザインが融合した、スタンダードながらも洗練された空間。機能性を重視し、日々の生活を快適に彩ります。',
             categories: [{ name: 'テレビボード (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+TV' }, { name: 'サイドボード (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Sideboard' }],
             advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
         },
+        // 14
         'hina_standard_modern_stylish_design': {
             style: '木の温もりを活かした、スタンダードでモダン・スタイリッシュなスタイル',
             message: '木の温もりとモダンなデザインが融合した、スタンダードながらも洗練された空間。デザイン性を重視し、日々の生活を快適に彩ります。',
             categories: [{ name: 'テレビボード (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+TV' }, { name: 'サイドボード (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Sideboard' }],
             advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
         },
+        // 15
         'hina_standard_modern_stylish_balance': {
             style: '木の温もりを活かした、スタンダードでモダン・スタイリッシュなスタイル',
             message: '木の温もりとモダンなデザインが融合した、スタンダードながらも洗練された空間。価格と機能のバランスを重視し、日々の生活を快適に彩ります。',
@@ -182,18 +197,21 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         // hina_standard_playful_cheerful
+        // 16
         'hina_standard_playful_cheerful_function': {
             style: '木の温もりを活かした、スタンダードで明るく・元気なスタイル',
             message: '家族や友人との時間を大切にする、明るく元気なスタンダード空間。木の温もりが、集まる人々を優しく包み込みます。機能性を重視し、快適な暮らしをサポートします。',
             categories: [{ name: 'ダイニングテーブル (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Table' }, { name: 'ソファ (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Sofa' }],
             advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
         },
+        // 17
         'hina_standard_playful_cheerful_design': {
             style: '木の温もりを活かした、スタンダードで明るく・元気なスタイル',
             message: '家族や友人との時間を大切にする、明るく元気なスタンダード空間。木の温もりが、集まる人々を優しく包み込みます。デザイン性を重視し、快適な暮らしをサポートします。',
             categories: [{ name: 'ダイニングテーブル (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Table' }, { name: 'ソファ (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Sofa' }],
             advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
         },
+        // 18
         'hina_standard_playful_cheerful_balance': {
             style: '木の温もりを活かした、スタンダードで明るく・元気なスタイル',
             message: '家族や友人との時間を大切にする、明るく元気なスタンダード空間。木の温もりと明るく元気な雰囲気を演出します。価格と機能のバランスを重視し、快適な暮らしをサポートします。',
@@ -202,18 +220,21 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         // hina_space_saving_natural_elegant
+        // 19
         'hina_space_saving_natural_elegant_function': {
             style: '木の温もりを活かした、省スペース・効率重視でナチュラル・上品なスタイル',
             message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。木の温もりとナチュラルで上品なテイストが、機能性を重視しつつも心地よい空間を演出します。',
             categories: [{ name: '折りたたみデスク (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+FoldDesk' }, { name: '壁面収納 (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+WallStorage' }],
             advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
         },
+        // 20
         'hina_space_saving_natural_elegant_design': {
             style: '木の温もりを活かした、省スペース・効率重視でナチュラル・上品なスタイル',
             message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。木の温もりとナチュラルで上品なテイストが、デザイン性を重視しつつも心地よい空間を演出します。',
             categories: [{ name: '折りたたみデスク (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+FoldDesk' }, { name: '壁面収納 (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+WallStorage' }],
             advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
         },
+        // 21
         'hina_space_saving_natural_elegant_balance': {
             style: '木の温もりを活かした、省スペース・効率重視でナチュラル・上品なスタイル',
             message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。木の温もりとナチュラルで上品なテイストが、価格と機能のバランスを重視しつつも心地よい空間を演出します。',
@@ -222,18 +243,21 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         // hina_space_saving_modern_stylish
+        // 22
         'hina_space_saving_modern_stylish_function': {
             style: '木の温もりを活かした、省スペース・効率重視でモダン・スタイリッシュなスタイル',
             message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。木の温もりとモダンでスタイリッシュなテイストが、機能性を重視しつつも洗練された空間を演出します。',
             categories: [{ name: 'スリムデスク (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+SlimDesk' }, { name: 'スタッキングチェア (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+StackChair' }],
             advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
         },
+        // 23
         'hina_space_saving_modern_stylish_design': {
             style: '木の温もりを活かした、省スペース・効率重視でモダン・スタイリッシュなスタイル',
             message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。木の温もりとモダンでスタイリッシュなテイストが、デザイン性を重視しつつも洗練された空間を演出します。',
             categories: [{ name: 'スリムデスク (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+SlimDesk' }, { name: 'スタッキングチェア (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+StackChair' }],
             advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
         },
+        // 24
         'hina_space_saving_modern_stylish_balance': {
             style: '木の温もりを活かした、省スペース・効率重視でモダン・スタイリッシュなスタイル',
             message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。木の温もりとモダンでスタイリッシュなテイストが、価格と機能のバランスを重視しつつも洗練された空間を演出します。',
@@ -242,18 +266,21 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         // hina_space_saving_playful_cheerful
+        // 25
         'hina_space_saving_playful_cheerful_function': {
             style: '木の温もりを活かした、省スペース・効率重視で明るく・元気なスタイル',
             message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。木の温もりと明るく元気なテイストが、機能性を重視しつつも楽しい空間を演出します。',
             categories: [{ name: '収納付きベッド (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Bed' }, { name: 'カラフルな小物 (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Colorful' }],
             advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
         },
+        // 26
         'hina_space_saving_playful_cheerful_design': {
             style: '木の温もりを活かした、省スペース・効率重視で明るく・元気なスタイル',
             message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。木の温もりと明るく元気なテイストが、デザイン性を重視しつつも楽しい空間を演出します。',
             categories: [{ name: '収納付きベッド (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Bed' }, { name: 'カラフルな小物 (木)', img: 'https://placehold.co/280x280/c2a890/FFFFFF?text=Hina+Colorful' }],
             advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
         },
+        // 27
         'hina_space_saving_playful_cheerful_balance': {
             style: '木の温もりを活かした、省スペース・効率重視で明るく・元気なスタイル',
             message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。木の温もりと明るく元気なテイストが、価格と機能のバランスを重視しつつも楽しい空間を演出します。',
@@ -263,18 +290,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // --- gogatsu (鉄の家具) を選んだ場合のパターン (27通り) ---
         // gogatsu_compact_natural_elegant
+        // 28
         'gogatsu_compact_natural_elegant_function': {
             style: 'アイアンの質感が映える、コンパクトでナチュラル・上品なスタイル',
             message: 'アイアンのクールな質感と、ナチュラルで上品なテイストが融合したコンパクトな空間。機能性を重視し、洗練された都会的な暮らしにフィットします。',
             categories: [{ name: 'アイアンラック (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+Rack' }, { name: 'スツール (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+Stool' }],
             advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
         },
+        // 29
         'gogatsu_compact_natural_elegant_design': {
             style: 'アイアンの質感が映える、コンパクトでナチュラル・上品なスタイル',
             message: 'アイアンのクールな質感と、ナチュラルで上品なテイストが融合したコンパクトな空間。デザイン性を重視し、洗練された都会的な暮らしにフィットします。',
             categories: [{ name: 'アイアンラック (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+Rack' }, { name: 'スツール (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+Stool' }],
             advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
         },
+        // 30
         'gogatsu_compact_natural_elegant_balance': {
             style: 'アイアンの質感が映える、コンパクトでナチュラル・上品なスタイル',
             message: 'アイアンのクールな質感と、ナチュラルで上品なテイストが融合したコンパクトな空間。価格と機能のバランスを重視し、洗練された都会的な暮らしにフィットします。',
@@ -283,18 +313,21 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         // gogatsu_compact_modern_stylish
+        // 31
         'gogatsu_compact_modern_stylish_function': {
             style: 'アイアンの質感が映える、コンパクトでモダン・スタイリッシュなスタイル',
             message: 'アイアンのクールな質感と、モダンでスタイリッシュなデザインが特徴。限られたスペースを最大限に活用し、機能性を重視したスマートな都市型の暮らしを実現します。',
             categories: [{ name: 'アイアンデスク (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+Desk' }, { name: 'ミニマルチェア (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+MiniChair' }],
             advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
         },
+        // 32
         'gogatsu_compact_modern_stylish_design': {
             style: 'アイアンの質感が映える、コンパクトでモダン・スタイリッシュなスタイル',
             message: 'アイアンのクールな質感と、モダンでスタイリッシュなデザインが特徴。限られたスペースを最大限に活用し、デザイン性を重視したスマートな都市型の暮らしを実現します。',
             categories: [{ name: 'アイアンデスク (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+Desk' }, { name: 'ミニマルチェア (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+MiniChair' }],
             advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
         },
+        // 33
         'gogatsu_compact_modern_stylish_balance': {
             style: 'アイアンの質感が映える、コンパクトでモダン・スタイリッシュなスタイル',
             message: 'アイアンのクールな質感と、モダンでスタイリッシュなデザインが特徴。限られたスペースを最大限に活用し、価格と機能のバランスを重視したスマートな都市型の暮らしを実現します。',
@@ -303,18 +336,21 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         // gogatsu_compact_playful_cheerful
+        // 34
         'gogatsu_compact_playful_cheerful_function': {
             style: 'アイアンの質感が映える、コンパクトで明るく・元気なスタイル',
             message: 'アイアンのクールな質感と、明るく元気な雰囲気が調和したコンパクトな空間。機能性を重視し、日々の生活を快適に彩ります。',
             categories: [{ name: 'カラフルな収納 (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+ColorStorage' }, { name: 'デザインスツール (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+DesignStool' }],
             advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
         },
+        // 35
         'gogatsu_compact_playful_cheerful_design': {
             style: 'アイアンの質感が映える、コンパクトで明るく・元気なスタイル',
             message: 'アイアンのクールな質感と、明るく元気な雰囲気が調和したコンパクトな空間。デザイン性を重視し、日々の生活を快適に彩ります。',
             categories: [{ name: 'カラフルな収納 (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+ColorStorage' }, { name: 'デザインスツール (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+DesignStool' }],
             advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
         },
+        // 36
         'gogatsu_compact_playful_cheerful_balance': {
             style: 'アイアンの質感が映える、コンパクトで明るく・元気なスタイル',
             message: 'アイアンのクールな質感と、明るく元気な雰囲気が調和したコンパクトな空間。価格と機能のバランスを重視し、日々の生活を快適に彩ります。',
@@ -323,18 +359,21 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         // gogatsu_standard_natural_elegant
+        // 37
         'gogatsu_standard_natural_elegant_function': {
             style: 'アイアンの質感が映える、スタンダードでナチュラル・上品なスタイル',
             message: 'アイアンのクールな質感と、ナチュラルで上品なテイストが融合したスタンダードな空間。機能性を重視し、洗練された都会的な暮らしにフィットします。',
             categories: [{ name: 'アイアンダイニング (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+Dining' }, { name: 'ファブリックソファ (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+Sofa' }],
             advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
         },
+        // 38
         'gogatsu_standard_natural_elegant_design': {
             style: 'アイアンの質感が映える、スタンダードでナチュラル・上品なスタイル',
             message: 'アイアンのクールな質感と、ナチュラルで上品なテイストが融合したスタンダードな空間。デザイン性を重視し、洗練された都会的な暮らしにフィットします。',
             categories: [{ name: 'アイアンダイニング (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+Dining' }, { name: 'ファブリックソファ (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+Sofa' }],
             advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
         },
+        // 39
         'gogatsu_standard_natural_elegant_balance': {
             style: 'アイアンの質感が映える、スタンダードでナチュラル・上品なスタイル',
             message: 'アイアンのクールな質感と、ナチュラルで上品なテイストが融合したスタンダードな空間。価格と機能のバランスを重視し、洗練された都会的な暮らしにフィットします。',
@@ -343,18 +382,21 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         // gogatsu_standard_modern_stylish
+        // 40
         'gogatsu_standard_modern_stylish_function': {
             style: 'アイアンの質感が映える、スタンダードでモダン・スタイリッシュなスタイル',
             message: 'アイアンのクールな質感と、モダンでスタイリッシュなデザインが特徴。スタンダードな空間に機能性を重視し、洗練された都市型の暮らしを実現します。',
             categories: [{ name: 'アイアンテレビボード (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+TV' }, { name: 'ローテーブル (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+LowTable' }],
             advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
         },
+        // 41
         'gogatsu_standard_modern_stylish_design': {
             style: 'アイアンの質感が映える、スタンダードでモダン・スタイリッシュなスタイル',
             message: 'アイアンのクールな質感と、モダンでスタイリッシュなデザインが特徴。スタンダードな空間にデザイン性を重視し、洗練された都市型の暮らしを実現します。',
             categories: [{ name: 'アイアンテレビボード (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+TV' }, { name: 'ローテーブル (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+LowTable' }],
             advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
         },
+        // 42
         'gogatsu_standard_modern_stylish_balance': {
             style: 'アイアンの質感が映える、スタンダードでモダン・スタイリッシュなスタイル',
             message: 'アイアンのクールな質感と、モダンでスタイリッシュなデザインが特徴。スタンダードな空間に価格と機能のバランスを重視し、洗練された都市型の暮らしを実現します。',
@@ -363,18 +405,21 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         // gogatsu_standard_playful_cheerful
+        // 43
         'gogatsu_standard_playful_cheerful_function': {
             style: 'アイアンの質感が映える、スタンダードで明るく・元気なスタイル',
             message: 'アイアンのクールな質感と、明るく元気な雰囲気が調和したスタンダードな空間。機能性を重視し、日々の生活を快適に彩ります。',
             categories: [{ name: 'カラフルなチェア (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+ColorChair' }, { name: 'デザイン照明 (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+DesignLight' }],
             advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
         },
+        // 44
         'gogatsu_standard_playful_cheerful_design': {
             style: 'アイアンの質感が映える、スタンダードで明るく・元気なスタイル',
             message: 'アイアンのクールな質感と、明るく元気な雰囲気が調和したスタンダードな空間。デザイン性を重視し、日々の生活を快適に彩ります。',
             categories: [{ name: 'カラフルなチェア (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+ColorChair' }, { name: 'デザイン照明 (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+DesignLight' }],
             advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
         },
+        // 45
         'gogatsu_standard_playful_cheerful_balance': {
             style: 'アイアンの質感が映える、スタンダードで明るく・元気なスタイル',
             message: 'アイアンのクールな質感と、明るく元気な雰囲気が調和したスタンダードな空間。価格と機能のバランスを重視し、日々の生活を快適に彩ります。',
@@ -383,18 +428,21 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         // gogatsu_space_saving_natural_elegant
+        // 46
         'gogatsu_space_saving_natural_elegant_function': {
             style: 'アイアンの質感が映える、省スペース・効率重視でナチュラル・上品なスタイル',
             message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。アイアンのクールな質感とナチュラルで上品なテイストが、機能性を重視しつつも洗練された空間を演出します。',
             categories: [{ name: 'スリムシェルフ (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+SlimShelf' }, { name: '壁掛け収納 (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+WallStorage' }],
             advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
         },
+        // 47
         'gogatsu_space_saving_natural_elegant_design': {
             style: 'アイアンの質感が映える、省スペース・効率重視でナチュラル・上品なスタイル',
             message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。アイアンのクールな質感とナチュラルで上品なテイストが、デザイン性を重視しつつも洗練された空間を演出します。',
             categories: [{ name: 'スリムシェルフ (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+SlimShelf' }, { name: '壁掛け収納 (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+WallStorage' }],
             advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
         },
+        // 48
         'gogatsu_space_saving_natural_elegant_balance': {
             style: 'アイアンの質感が映える、省スペース・効率重視でナチュラル・上品なスタイル',
             message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。アイアンのクールな質感とナチュラルで上品なテイストが、価格と機能のバランスを重視しつつも洗練された空間を演出します。',
@@ -403,18 +451,21 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         // gogatsu_space_saving_modern_stylish
+        // 49
         'gogatsu_space_saving_modern_stylish_function': {
             style: 'アイアンの質感が映える、省スペース・効率重視でモダン・スタイリッシュなスタイル',
             message: 'アイアンのクールな質感と、モダンでスタイリッシュなデザインが特徴。限られたスペースを最大限に活用し、機能性を重視したスマートな都市型の暮らしを実現します。',
             categories: [{ name: 'アイアンシェルフ (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+Shelf' }, { name: 'スツール (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+Stool' }],
             advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
         },
+        // 50
         'gogatsu_space_saving_modern_stylish_design': {
             style: 'アイアンの質感が映える、省スペース・効率重視でモダン・スタイリッシュなスタイル',
             message: 'アイアンのクールな質感と、モダンでスタイリッシュなデザインが特徴。限られたスペースを最大限に活用し、デザイン性を重視したスマートな都市型の暮らしを実現します。',
             categories: [{ name: 'アイアンシェルフ (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+Shelf' }, { name: 'スツール (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+Stool' }],
             advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
         },
+        // 51
         'gogatsu_space_saving_modern_stylish_balance': {
             style: 'アイアンの質感が映える、省スペース・効率重視でモダン・スタイリッシュなスタイル',
             message: 'アイアンのクールな質感と、モダンでスタイリッシュなデザインが特徴。限られたスペースを最大限に活用し、価格と機能のバランスを重視したスマートな都市型の暮らしを実現します。',
@@ -423,18 +474,21 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         // gogatsu_space_saving_playful_cheerful
+        // 52
         'gogatsu_space_saving_playful_cheerful_function': {
             style: 'アイアンの質感が映える、省スペース・効率重視で明るく・元気なスタイル',
             message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。アイアンのクールな質感と明るく元気なテイストが、機能性を重視しつつも楽しい空間を演出します。',
             categories: [{ name: 'コンパクトソファ (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+CompactSofa' }, { name: '壁面アート (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+WallArt' }],
             advice: '長く使える良い素材や、収納力を兼ね備えた多機能なアイテムを選ぶのがおすすめです。'
         },
+        // 53
         'gogatsu_space_saving_playful_cheerful_design': {
             style: 'アイアンの質感が映える、省スペース・効率重視で明るく・元気なスタイル',
             message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。アイアンのクールな質感と明るく元気なテイストが、デザイン性を重視しつつも楽しい空間を演出します。',
             categories: [{ name: 'コンパクトソファ (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+CompactSofa' }, { name: '壁面アート (鉄)', img: 'https://placehold.co/280x280/555555/FFFFFF?text=Gogatsu+WallArt' }],
             advice: '空間の主役になるような、デザイン性の高い照明やアートを一つ取り入れるだけで、お部屋の印象がぐっと上がります。'
         },
+        // 54
         'gogatsu_space_saving_playful_cheerful_balance': {
             style: 'アイアンの質感が映える、省スペース・効率重視で明るく・元気なスタイル',
             message: '限られたスペースを最大限に活用し、効率的でスマートな暮らし。アイアンのクールな質感と明るく元気なテイストが、価格と機能のバランスを重視しつつも楽しい空間を演出します。',
